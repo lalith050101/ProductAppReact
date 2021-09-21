@@ -73,9 +73,9 @@ class UpdateProductComponent extends Component {
         return (
             <div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{padding: "3%"}}>
                         <div className="card col-md-6 offset-md-3 offset-md-3">
-                            <h3 className="text-center"> Update Product </h3>
+                            <h3 style={{color: "#0B5ED8"}} className="text-center"> Update Product </h3>
                             <div className="card-body">
 
                                 <form>

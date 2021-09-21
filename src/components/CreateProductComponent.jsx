@@ -59,9 +59,9 @@ class CreateProductComponent extends Component {
         return (
             <div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{padding: "3%"}}>
                         <div className="card col-md-6 offset-md-3 offset-md-3">
-                            <h3 className="text-center"> Add Product </h3>
+                            <h3 style={{color: "#0B5ED8"}} className="text-center"> Add Product </h3>
                             <div className="card-body">
 
                                 <form>
@@ -92,7 +92,7 @@ class CreateProductComponent extends Component {
                                     </div>
 
                                     <button className="btn btn-success" onClick={this.saveProduct}>Save</button>
-                                    <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{marginLeft: "10px"}}>Cancel</button>
+                                    <button style={{marginLeft: "10px"}} className="btn btn-danger" onClick={this.cancel.bind(this)}>Cancel</button>
                                 </form>
                             </div>
                         </div>
